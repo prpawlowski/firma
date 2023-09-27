@@ -1,0 +1,43 @@
+/* styles.css */
+
+/* Resetowanie domyślnych stylów przeglądarki */
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Stylizacja nagłówka strony */
+header {
+    background-color: #007acc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Stylizacja sekcji "O nas" */
+.about {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Stylizacja sekcji "Nasze usługi" */
+.services {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.services ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Stylizacja sekcji "Kontakt" */
+.contact {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
